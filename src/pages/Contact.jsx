@@ -6,27 +6,37 @@ function Contact() {
         Let's Work Together
       </h2>
 
-      <div className="contact-box">
+      <form
+        className="contact-box"
+        action="https://formspree.io/f/xaqkkvvb"
+        method="POST"
+      >
 
         <input
           type="text"
+          name="name"
           placeholder="Your Name"
+          required
         />
 
         <input
           type="email"
+          name="email"
           placeholder="Your Email"
+          required
         />
 
         <textarea
+          name="message"
           placeholder="Tell me about your project..."
+          required
         ></textarea>
 
-        <button>
+        <button type="submit">
           Send Message
         </button>
 
-      </div>
+      </form>
 
     </div>
   );
