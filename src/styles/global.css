@@ -1681,3 +1681,14 @@ html{
   margin-top:20px;
   font-size:0.9rem;
 }
+
+.success-message {
+  margin-top: 25px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(155,108,255,0.12);
+  border: 1px solid rgba(155,108,255,0.3);
+  color: #b58cff;
+  text-align: center;
+  font-weight: 600;
+}
