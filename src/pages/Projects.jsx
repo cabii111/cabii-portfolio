@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Projects() {
 
@@ -59,9 +60,9 @@ function Projects() {
 
               <p>{project.description}</p>
 
-              <a href={project.link} className="view-btn">
-                View Project
-              </a>
+              <Link to={project.link} className="view-btn">
+  View Project
+</Link>
 
             </div>
 
